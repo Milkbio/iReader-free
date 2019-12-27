@@ -1,8 +1,8 @@
 @import "reset";
-
+$fontSize: 37.5;
 // 1rem = fontSize px
 // 1px = (1 / fontSize) rem
-@function px2rem ($px) {
+@function px2rem($px) {
   @return ($px / $fontSize) + rem;
 }
 
